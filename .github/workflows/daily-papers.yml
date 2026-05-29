@@ -1,0 +1,33 @@
+name: 📄 Daily AI Papers
+
+on:
+  schedule:
+    - cron: '0 5 * * *'    # 10:00 AM PKT (UTC+5)
+    - cron: '0 13 * * *'   # 6:00 PM PKT
+  workflow_dispatch:        # Manual trigger from Actions tab
+
+jobs:
+  fetch-paper:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch paper from ArXiv and update log
+        run: python3 scripts/fetch_paper.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "mabdullahab614-alt"
+          git config user.email "mabdullah.ab614@gmail.com"
+          git add .
+          if git diff --staged --quiet; then
+            echo "Nothing to commit — skipping"
+            exit 0
+          fi
+          COMMIT_MSG=$(cat .commit_msg 2>/dev/null || echo "📄 Daily AI paper update")
+          git commit -m "$COMMIT_MSG"
+          git push
