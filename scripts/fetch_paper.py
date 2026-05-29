@@ -25,28 +25,39 @@ CATEGORIES = [
 
 QUERY = '+OR+'.join([f'cat:{c}' for c in CATEGORIES])
 START = random.randint(0, 150)
-URL = (
-    f'https://export.arxiv.org/api/query'
-    f'?search_query={QUERY}'
-    f'&sortBy=lastUpdatedDate'
-    f'&sortOrder=descending'
-    f'&max_results=15'
-    f'&start={START}'
-)
+
+BASE_URLS = [
+    'https://export.arxiv.org/api/query',
+    'https://arxiv.org/api/query',
+]
 
 NS = {
     'atom':  'http://www.w3.org/2005/Atom',
     'arxiv': 'http://arxiv.org/schemas/atom',
 }
 
-# ── Fetch ──────────────────────────────────────────────────────────────────
-try:
-    req = urllib.request.Request(URL, headers={'User-Agent': 'ai-papers-daily/1.0'})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        xml_data = r.read()
-except Exception as e:
-    print(f'[ERROR] Could not reach ArXiv: {e}', file=sys.stderr)
-    # Write a fallback so the commit still happens
+# ── Fetch with retry across mirror URLs ────────────────────────────────────
+xml_data = None
+for base in BASE_URLS:
+    url = (
+        f'{base}?search_query={QUERY}'
+        f'&sortBy=lastUpdatedDate&sortOrder=descending'
+        f'&max_results=15&start={START}'
+    )
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'ai-papers-daily/1.0'})
+            with urllib.request.urlopen(req, timeout=45) as r:
+                xml_data = r.read()
+            break
+        except Exception as e:
+            print(f'[WARN] Attempt {attempt+1} failed ({base}): {e}', file=sys.stderr)
+            import time; time.sleep(3)
+    if xml_data:
+        break
+
+if not xml_data:
+    print(f'[ERROR] All ArXiv endpoints failed', file=sys.stderr)
     title = 'ArXiv API temporarily unavailable — will retry next run'
     authors_str = 'N/A'
     category = 'cs.AI'
