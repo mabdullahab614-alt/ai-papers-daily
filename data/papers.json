@@ -1,0 +1,386 @@
+[
+  {
+    "title": "Attention Is All You Need",
+    "authors": "Vaswani, A., Shazeer, N., Parmar, N., et al.",
+    "category": "cs.CL",
+    "year": "2017",
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+    "link": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "authors": "Devlin, J., Chang, M.W., Lee, K., Toutanova, K.",
+    "category": "cs.CL",
+    "year": "2018",
+    "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text.",
+    "link": "https://arxiv.org/abs/1810.04805"
+  },
+  {
+    "title": "Deep Residual Learning for Image Recognition",
+    "authors": "He, K., Zhang, X., Ren, S., Sun, J.",
+    "category": "cs.CV",
+    "year": "2015",
+    "abstract": "We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.",
+    "link": "https://arxiv.org/abs/1512.03385"
+  },
+  {
+    "title": "Generative Adversarial Networks",
+    "authors": "Goodfellow, I., Pouget-Abadie, J., Mirza, M., et al.",
+    "category": "cs.LG",
+    "year": "2014",
+    "abstract": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data.",
+    "link": "https://arxiv.org/abs/1406.2661"
+  },
+  {
+    "title": "Language Models are Few-Shot Learners (GPT-3)",
+    "authors": "Brown, T., Mann, B., Ryder, N., et al.",
+    "category": "cs.CL",
+    "year": "2020",
+    "abstract": "We show that scaling up language models greatly improves task-agnostic, few-shot performance. GPT-3 with 175 billion parameters achieves strong performance on many NLP datasets, sometimes matching the performance of state-of-the-art fine-tuned models.",
+    "link": "https://arxiv.org/abs/2005.14165"
+  },
+  {
+    "title": "YOLOv3: An Incremental Improvement",
+    "authors": "Redmon, J., Farhadi, A.",
+    "category": "cs.CV",
+    "year": "2018",
+    "abstract": "We present some updates to YOLO! We made a bunch of little design changes to make it better. We also trained this new network that's pretty swell. It's a little bigger than last time but more accurate. It's still fast though.",
+    "link": "https://arxiv.org/abs/1804.02767"
+  },
+  {
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)",
+    "authors": "Dosovitskiy, A., Beyer, L., Kolesnikov, A., et al.",
+    "category": "cs.CV",
+    "year": "2020",
+    "abstract": "We show that this reliance on CNNs is not necessary and a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks.",
+    "link": "https://arxiv.org/abs/2010.11929"
+  },
+  {
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "authors": "Touvron, H., Lavril, T., Izacard, G., et al.",
+    "category": "cs.CL",
+    "year": "2023",
+    "abstract": "We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We show that it is possible to train state-of-the-art models using publicly available datasets exclusively.",
+    "link": "https://arxiv.org/abs/2302.13971"
+  },
+  {
+    "title": "Segment Anything",
+    "authors": "Kirillov, A., Mintun, E., Ravi, N., et al.",
+    "category": "cs.CV",
+    "year": "2023",
+    "abstract": "We introduce the Segment Anything project: a new task, model, and dataset for image segmentation. We build the largest segmentation dataset to date (SA-1B), with over 1 billion masks on 11M licensed and privacy-respecting images.",
+    "link": "https://arxiv.org/abs/2304.02643"
+  },
+  {
+    "title": "Diffusion Models Beat GANs on Image Synthesis",
+    "authors": "Dhariwal, P., Nichol, A.",
+    "category": "cs.LG",
+    "year": "2021",
+    "abstract": "We show that diffusion models can achieve image sample quality superior to the current state-of-the-art generative models. We achieve this on unconditional image synthesis by finding a better architecture through a series of ablations.",
+    "link": "https://arxiv.org/abs/2105.05233"
+  },
+  {
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "authors": "Wei, J., Wang, X., Schuurmans, D., et al.",
+    "category": "cs.CL",
+    "year": "2022",
+    "abstract": "We explore how generating a chain of thought — a series of intermediate reasoning steps — significantly improves the ability of large language models to perform complex reasoning.",
+    "link": "https://arxiv.org/abs/2201.11903"
+  },
+  {
+    "title": "Stable Diffusion: High-Resolution Image Synthesis with Latent Diffusion Models",
+    "authors": "Rombach, R., Blattmann, A., Lorenz, D., et al.",
+    "category": "cs.CV",
+    "year": "2021",
+    "abstract": "We propose to apply diffusion models in the latent space of powerful pretrained autoencoders. Our latent diffusion models achieve a near-optimal point between complexity reduction and detail preservation.",
+    "link": "https://arxiv.org/abs/2112.10752"
+  },
+  {
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "authors": "Bai, Y., Jones, A., Ndousse, K., et al.",
+    "category": "cs.CL",
+    "year": "2022",
+    "abstract": "We propose a method called Constitutional AI (CAI). The idea is to use a set of principles — a constitution — to guide an AI system to be helpful, harmless, and honest through reinforcement learning from AI feedback.",
+    "link": "https://arxiv.org/abs/2212.08073"
+  },
+  {
+    "title": "Mistral 7B",
+    "authors": "Jiang, A.Q., Sablayrolles, A., Mensch, A., et al.",
+    "category": "cs.CL",
+    "year": "2023",
+    "abstract": "We introduce Mistral 7B, a 7-billion-parameter language model engineered for superior performance and efficiency. It outperforms Llama 2 13B on all evaluated benchmarks.",
+    "link": "https://arxiv.org/abs/2310.06825"
+  },
+  {
+    "title": "Denoising Diffusion Probabilistic Models (DDPM)",
+    "authors": "Ho, J., Jain, A., Abbeel, P.",
+    "category": "cs.LG",
+    "year": "2020",
+    "abstract": "We present high quality image synthesis results using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics.",
+    "link": "https://arxiv.org/abs/2006.11239"
+  },
+  {
+    "title": "AlphaFold: Highly accurate protein structure prediction with AlphaFold",
+    "authors": "Jumper, J., Evans, R., Pritzel, A., et al.",
+    "category": "cs.AI",
+    "year": "2021",
+    "abstract": "We introduce AlphaFold, a system that achieves highly accurate protein structure prediction. AlphaFold2 achieved median backbone accuracy of 0.96 Å RMSD95 compared to experimental structures.",
+    "link": "https://www.nature.com/articles/s41586-021-03819-2"
+  },
+  {
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG)",
+    "authors": "Lewis, P., Perez, E., Piktus, A., et al.",
+    "category": "cs.CL",
+    "year": "2020",
+    "abstract": "We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) — models which combine pre-trained parametric and non-parametric memory for language generation.",
+    "link": "https://arxiv.org/abs/2005.11401"
+  },
+  {
+    "title": "Training language models to follow instructions with human feedback (InstructGPT)",
+    "authors": "Ouyang, L., Wu, J., Jiang, X., et al.",
+    "category": "cs.CL",
+    "year": "2022",
+    "abstract": "Making language models bigger does not inherently make them better at following a user's intent. We trained language models to follow instructions using reinforcement learning from human feedback (RLHF).",
+    "link": "https://arxiv.org/abs/2203.02155"
+  },
+  {
+    "title": "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+    "authors": "Radford, A., Kim, J.W., Hallacy, C., et al.",
+    "category": "cs.CV",
+    "year": "2021",
+    "abstract": "State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. We study the task of predicting the most relevant text snippet for an image using 400 million image-text pairs.",
+    "link": "https://arxiv.org/abs/2103.00020"
+  },
+  {
+    "title": "Adam: A Method for Stochastic Optimization",
+    "authors": "Kingma, D.P., Ba, J.",
+    "category": "cs.LG",
+    "year": "2014",
+    "abstract": "We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions. The method computes adaptive learning rates for different parameters from estimates of first and second moments of the gradients.",
+    "link": "https://arxiv.org/abs/1412.6980"
+  },
+  {
+    "title": "Batch Normalization: Accelerating Deep Network Training",
+    "authors": "Ioffe, S., Szegedy, C.",
+    "category": "cs.LG",
+    "year": "2015",
+    "abstract": "We propose Batch Normalization, a method that reduces internal covariate shift and accelerates deep network training. It allows us to use much higher learning rates and be less careful about initialization.",
+    "link": "https://arxiv.org/abs/1502.03167"
+  },
+  {
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "authors": "Hu, E., Shen, Y., Wallis, P., et al.",
+    "category": "cs.CL",
+    "year": "2021",
+    "abstract": "We propose Low-Rank Adaptation (LoRA), which freezes the pretrained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks.",
+    "link": "https://arxiv.org/abs/2106.09685"
+  },
+  {
+    "title": "A Survey on Large Language Models",
+    "authors": "Zhao, W.X., Zhou, K., Li, J., et al.",
+    "category": "cs.CL",
+    "year": "2023",
+    "abstract": "Language is essentially a complex, intricate system of human expression governed by grammatical rules. It poses great challenges to develop capable AI algorithms for comprehending and grasping a language. This survey reviews recent advances of large language models.",
+    "link": "https://arxiv.org/abs/2303.18223"
+  },
+  {
+    "title": "GPT-4 Technical Report",
+    "authors": "OpenAI",
+    "category": "cs.CL",
+    "year": "2023",
+    "abstract": "We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. GPT-4 exhibits human-level performance on various professional and academic benchmarks.",
+    "link": "https://arxiv.org/abs/2303.08774"
+  },
+  {
+    "title": "YOLOv8: Real-Time Object Detection",
+    "authors": "Jocher, G., Chaurasia, A., Qiu, J.",
+    "category": "cs.CV",
+    "year": "2023",
+    "abstract": "Ultralytics YOLOv8 is a cutting-edge, state-of-the-art model that builds upon the success of previous YOLO versions and introduces new features and improvements to further boost performance and flexibility.",
+    "link": "https://github.com/ultralytics/ultralytics"
+  },
+  {
+    "title": "Scaling Laws for Neural Language Models",
+    "authors": "Kaplan, J., McCandlish, S., Henighan, T., et al.",
+    "category": "cs.LG",
+    "year": "2020",
+    "abstract": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training.",
+    "link": "https://arxiv.org/abs/2001.08361"
+  },
+  {
+    "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "authors": "Ronneberger, O., Fischer, P., Brox, T.",
+    "category": "cs.CV",
+    "year": "2015",
+    "abstract": "There is large consent that successful training of deep networks requires many thousand annotated training samples. We present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently.",
+    "link": "https://arxiv.org/abs/1505.04597"
+  },
+  {
+    "title": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+    "authors": "Tan, M., Le, Q.V.",
+    "category": "cs.LG",
+    "year": "2019",
+    "abstract": "Convolutional Neural Networks are commonly developed at a fixed resource budget, and then scaled up for better accuracy if more resources are available. We systematically study model scaling and identify that carefully balancing network depth, width, and resolution can lead to better performance.",
+    "link": "https://arxiv.org/abs/1905.11946"
+  },
+  {
+    "title": "Proximal Policy Optimization Algorithms (PPO)",
+    "authors": "Schulman, J., Wolski, F., Dhariwal, P., et al.",
+    "category": "cs.LG",
+    "year": "2017",
+    "abstract": "We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a surrogate objective function using stochastic gradient ascent.",
+    "link": "https://arxiv.org/abs/1707.06347"
+  },
+  {
+    "title": "DALL-E 2: Hierarchical Text-Conditional Image Generation",
+    "authors": "Ramesh, A., Dhariwal, P., Nichol, A., et al.",
+    "category": "cs.CV",
+    "year": "2022",
+    "abstract": "We propose a two-stage model for text-conditional image generation. The first stage produces a CLIP image embedding given a text caption. The second stage generates an image conditioned on the image embedding.",
+    "link": "https://arxiv.org/abs/2204.06125"
+  },
+  {
+    "title": "Whisper: Robust Speech Recognition via Large-Scale Weak Supervision",
+    "authors": "Radford, A., Kim, J.W., Xu, T., et al.",
+    "category": "cs.CL",
+    "year": "2022",
+    "abstract": "We study the capabilities of speech processing systems trained simply to predict large amounts of transcripts of audio on the internet. We find that simple scaling of weakly supervised pre-training is very effective.",
+    "link": "https://arxiv.org/abs/2212.04356"
+  },
+  {
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "authors": "Schick, T., Dwivedi-Yu, J., Dessi, R., et al.",
+    "category": "cs.CL",
+    "year": "2023",
+    "abstract": "Language models exhibit remarkable abilities to solve new tasks from just a few examples or textual instructions, especially at scale. We show that LMs can teach themselves to use external tools with just a handful of demonstrations.",
+    "link": "https://arxiv.org/abs/2302.04761"
+  },
+  {
+    "title": "Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models",
+    "authors": "Wu, C., Yin, S., Qi, W., et al.",
+    "category": "cs.CV",
+    "year": "2023",
+    "abstract": "ChatGPT is attracting a cross-field interest as it provides a language interface with remarkable conversational competency and reasoning capabilities. However, it is not able to process or generate images from the visual world.",
+    "link": "https://arxiv.org/abs/2303.04671"
+  },
+  {
+    "title": "Self-Supervised Learning: Generative or Contrastive",
+    "authors": "Liu, X., Zhang, F., Hou, Z., et al.",
+    "category": "cs.LG",
+    "year": "2021",
+    "abstract": "Deep supervised learning has achieved great success in the last decade. However, its success heavily relies on expensive labeled data. To address this issue, self-supervised learning, as a subset of unsupervised learning has emerged.",
+    "link": "https://arxiv.org/abs/2006.08218"
+  },
+  {
+    "title": "SimCLR: A Simple Framework for Contrastive Learning of Visual Representations",
+    "authors": "Chen, T., Kornblith, S., Norouzi, M., Hinton, G.",
+    "category": "cs.LG",
+    "year": "2020",
+    "abstract": "This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank.",
+    "link": "https://arxiv.org/abs/2002.05709"
+  },
+  {
+    "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+    "authors": "Bubeck, S., Chandrasekaran, V., Eldan, R., et al.",
+    "category": "cs.CL",
+    "year": "2023",
+    "abstract": "We contend that GPT-4 is beginning to exhibit more general intelligence than previous AI models. We explore a variety of tasks across mathematics, coding, vision, medicine, law, and psychology.",
+    "link": "https://arxiv.org/abs/2303.12528"
+  },
+  {
+    "title": "Mixtral of Experts",
+    "authors": "Jiang, A.Q., Sablayrolles, A., Roux, A., et al.",
+    "category": "cs.LG",
+    "year": "2024",
+    "abstract": "We introduce Mixtral 8x7B, a Sparse Mixture of Experts language model. Mixtral has the same architecture as Mistral 7B, with the difference that each layer is composed of 8 feedforward blocks.",
+    "link": "https://arxiv.org/abs/2401.04088"
+  },
+  {
+    "title": "Gemini: A Family of Highly Capable Multimodal Models",
+    "authors": "Anil, R., Chowdhery, A., et al. (Google DeepMind)",
+    "category": "cs.CL",
+    "year": "2023",
+    "abstract": "This report introduces a new family of multimodal models, Gemini, that exhibit remarkable capabilities across image, audio, video, and text understanding. Gemini Ultra achieves human-expert performance on MMLU.",
+    "link": "https://arxiv.org/abs/2312.11805"
+  },
+  {
+    "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "authors": "Gu, A., Dao, T.",
+    "category": "cs.LG",
+    "year": "2023",
+    "abstract": "Foundation models are now widespread, but a core limitation of transformers is their inability to model anything outside their context window. We develop an architecture called Mamba, based on structured state space models.",
+    "link": "https://arxiv.org/abs/2312.00752"
+  },
+  {
+    "title": "Reward is Enough (Reinforcement Learning)",
+    "authors": "Silver, D., Singh, S., Precup, D., Sutton, R.S.",
+    "category": "cs.AI",
+    "year": "2021",
+    "abstract": "We hypothesize that intelligence, and its associated abilities, can be understood as subserving the maximisation of reward. Accordingly, reward is enough to drive behaviour that exhibits abilities associated with intelligence.",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0004370221000862"
+  },
+  {
+    "title": "LangChain: Building applications with LLMs through composability",
+    "authors": "Chase, H.",
+    "category": "cs.CL",
+    "year": "2022",
+    "abstract": "LangChain is a framework for developing applications powered by language models. It enables applications that are context-aware and can reason, connecting language models to other sources of data and allowing LLMs to interact with their environment.",
+    "link": "https://github.com/langchain-ai/langchain"
+  },
+  {
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "authors": "Wang, G., Xie, Y., Jiang, Y., et al.",
+    "category": "cs.AI",
+    "year": "2023",
+    "abstract": "We introduce Voyager, the first LLM-powered embodied lifelong learning agent in Minecraft that continuously explores the world, acquires diverse skills, and makes novel discoveries without human intervention.",
+    "link": "https://arxiv.org/abs/2305.16291"
+  },
+  {
+    "title": "Code Llama: Open Foundation Models for Code",
+    "authors": "Roziere, B., Gehring, J., Gloeckle, F., et al.",
+    "category": "cs.CL",
+    "year": "2023",
+    "abstract": "We release Code Llama, a family of large language models for code based on Llama 2 providing state-of-the-art performance among open models, infilling capabilities, support for large input contexts.",
+    "link": "https://arxiv.org/abs/2308.12950"
+  },
+  {
+    "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+    "authors": "Alayrac, J.B., Donahue, J., Luc, P., et al.",
+    "category": "cs.CV",
+    "year": "2022",
+    "abstract": "We introduce Flamingo, a Visual Language Model (VLM) for few-shot learning on a wide range of open-ended vision and language tasks. Flamingo is trained on a mixture of text and visual data scraped from the web.",
+    "link": "https://arxiv.org/abs/2204.14198"
+  },
+  {
+    "title": "Neural Ordinary Differential Equations",
+    "authors": "Chen, R.T.Q., Rubanova, Y., Bettencourt, J., Duvenaud, D.",
+    "category": "cs.LG",
+    "year": "2018",
+    "abstract": "We introduce a new family of deep neural network models. Instead of specifying a discrete sequence of hidden layers, we parameterize the derivative of the hidden state using a neural network.",
+    "link": "https://arxiv.org/abs/1806.07366"
+  },
+  {
+    "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+    "authors": "Howard, A.G., Zhu, M., Chen, B., et al.",
+    "category": "cs.CV",
+    "year": "2017",
+    "abstract": "We present a class of efficient models called MobileNets for mobile and embedded vision applications. MobileNets are based on a streamlined architecture that uses depth-wise separable convolutions.",
+    "link": "https://arxiv.org/abs/1704.04861"
+  },
+  {
+    "title": "Sora: Video generation models as world simulators",
+    "authors": "OpenAI",
+    "category": "cs.CV",
+    "year": "2024",
+    "abstract": "We explore large-scale training of generative models on video data. We train a diffusion transformer model capable of generating high-fidelity videos up to a minute long while maintaining visual quality and adherence to the user's prompt.",
+    "link": "https://openai.com/research/video-generation-models-as-world-simulators"
+  },
+  {
+    "title": "RLHF: Learning to summarize from human feedback",
+    "authors": "Stiennon, N., Ouyang, L., Wu, J., et al.",
+    "category": "cs.CL",
+    "year": "2020",
+    "abstract": "We apply reinforcement learning from human feedback to summarization. Our models generate summaries that are significantly better than the supervised baselines on both TL;DR and CNN/DM tasks.",
+    "link": "https://arxiv.org/abs/2009.01325"
+  }
+]
